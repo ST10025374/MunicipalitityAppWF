@@ -39,6 +39,7 @@
             this.pnlGraph = new System.Windows.Forms.Panel();
             this.btnShow = new System.Windows.Forms.Button();
             this.btnDrawGraph = new System.Windows.Forms.Button();
+            this.btnGoBack2 = new System.Windows.Forms.Button();
             btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -152,10 +153,27 @@
             this.btnDrawGraph.UseVisualStyleBackColor = false;
             this.btnDrawGraph.Click += new System.EventHandler(this.btnDrawGraph_Click);
             // 
+            // btnGoBack2
+            // 
+            this.btnGoBack2.BackColor = System.Drawing.Color.Gray;
+            this.btnGoBack2.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.btnGoBack2.FlatAppearance.BorderSize = 0;
+            this.btnGoBack2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGoBack2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGoBack2.ForeColor = System.Drawing.Color.Transparent;
+            this.btnGoBack2.Location = new System.Drawing.Point(27, 425);
+            this.btnGoBack2.Name = "btnGoBack2";
+            this.btnGoBack2.Size = new System.Drawing.Size(62, 49);
+            this.btnGoBack2.TabIndex = 24;
+            this.btnGoBack2.Text = "Go Back";
+            this.btnGoBack2.UseVisualStyleBackColor = false;
+            this.btnGoBack2.Click += new System.EventHandler(this.btnGoBack2_Click);
+            // 
             // ServiceRequestStatusControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnGoBack2);
             this.Controls.Add(this.btnDrawGraph);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(btnSearch);
@@ -181,5 +199,6 @@
         private System.Windows.Forms.Panel pnlGraph;
         private System.Windows.Forms.Button btnShow;
         private System.Windows.Forms.Button btnDrawGraph;
+        private System.Windows.Forms.Button btnGoBack2;
     }
 }

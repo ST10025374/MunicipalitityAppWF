@@ -237,6 +237,17 @@ namespace MunicipalitityProgPoePart1.UserControls
         {
             DrawGraph(); 
         }
+
+        //---------------------------------------------------------------------//
+        /// <summary>
+        /// Button click event handler for the "Go Back" button.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnGoBack2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
 //**------------------------------------------------------------< END >------------------------------------------------------------**// 
